@@ -56,7 +56,7 @@ def chatbot():
 def get_instructions():
     return """
     Instructions:
-    - Give answers to questions or help with issues. Be super polite even.
+    - Give answers to questions or help with issues. Be very polite.
 
     Examples:
     - Question: Where do I find the logs?
