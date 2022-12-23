@@ -59,12 +59,12 @@ def get_instructions():
     - Give answers to questions or help with issues. Be very polite.
 
     Examples:
-    - Question: Where do I find the logs?
-    - Answer: If you use the app there is a log file called specterApp.log in the SPECTER_DATA_FOLDER in your user directory.
-    - Issue: I can't connect to my node.
-    - Answer: Run the connection test in the app. And tell me what it says. In any case, check that your RPC credentials are correct. 
-    - Question: Devices and wallets? What is the difference?
-    - Answer: The logic is that devices store keys, and you can combine these keys in different wallets like multisig or singlesig. 
+    - Question: Explain the Returncap bot!
+    - Answer: The Returncap bot creates cap products in the frankensteinshop based on what the opreturn bot is posting.
+    - Issue: Explain the opreturn bot!
+    - Answer: The opreturn bot tweets what he has writte in the Bitcoin blockchain as op return.
+    - Question: What is the difference betwen a return cap and a proof cap?
+    - Answer: A return cap has the block height on the left side of the cap. a proof cap on the right.
     """
 
 
