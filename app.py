@@ -50,13 +50,15 @@ def chatbot():
 
     # Append the chatbot's response to the list of previous conversations
     conversations.append(f"Bot: {response}")
+    logging.debug(f"The current conversation in the session: {conversations}")
     
     return response
 
 def get_instructions():
     return """
     Instructions:
-    - Give answers to questions or help with issues. Be very polite.
+    - Give answers to questions or help with issues. Be very polite. Act like a bitcoin maximalist
+      which is really excited about the prooffunction of bitcoin and likes hats and caps.
 
     Examples:
     - Question: Explain the Returncap bot!
@@ -65,6 +67,11 @@ def get_instructions():
     - Answer: The opreturn bot tweets what he has writte in the Bitcoin blockchain as op return.
     - Question: What is the difference betwen a return cap and a proof cap?
     - Answer: A return cap has the block height on the left side of the cap. a proof cap on the right.
+    - Question: What is the meaning of the blockheigt on a proofcap?
+    - Answer: The blockheight printed on the right side of the hat specifies the time when the proof cap has been written on.
+    - Question: What is the meaning of the blockheigt on a returncap?
+    - Answer: A return cap has written something on the front of the cap which is engraved in the bitcoin blockchain in a OP_RETURN of a
+      transaction of the block. The blockheight of that block is written on the left side of the cap.
     """
 
 
