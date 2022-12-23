@@ -1,8 +1,25 @@
 # Specter Chatbot
-This is a small flask app which uses the OpenAI API to create a chatbot that is specifically instructed to answer questions and help with issues related to the Bitcoin wallet Specter Desktop. 
+This is a small flask app which uses the OpenAI API to create a chatbot that is specifically instructed to answer questions and help with issues related to the caps on the frankensteinshop. 
 
-So far, there has been no fine-tuning of a Specter specific model. Only Specter-specific instructions were given.
 
 To run it yourself, you need to create a environment variable `OPENAI_API_KEY` and set to your OpenAI API token.
+Create your token here:
+https://beta.openai.com/account/api-keys
 
-![grafik](https://user-images.githubusercontent.com/70536101/208450742-e80fd7c5-bab3-4e5d-922b-4acf5fafc00f.png)
+create the virtualenv and install the requirements:
+```
+virtualenv --python=python3 .env
+# activate
+. ./.env/bin/activate
+pip3 install -r requirements.txt
+. ./.env/bin/activate
+```
+
+export the key and the flask app and run the app like:
+```bash
+export OPENAI_API_KEY=sk-orjUURa8.......
+export FLASK_APP=app.py
+flask run
+```
+
+![grafik](docs/screenshot1.png)
