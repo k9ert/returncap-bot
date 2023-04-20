@@ -1,4 +1,4 @@
-# Specter Chatbot
+# Return Proof Hat Chatbot
 This is a small flask app which uses the OpenAI API to create a chatbot that is specifically instructed to answer questions and help with issues related to the caps on the frankensteinshop. 
 
 
